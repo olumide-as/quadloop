@@ -10,8 +10,6 @@ import { toast } from 'react-toastify'
 import { db, storage } from '../../../Config/Config'
 import { STORE_PRODUCTS } from '../../../Redux/Slice/ProductSlice'
 import './ViewProduct.css'
-import { useEffect } from 'react'
-
 
 
 const ViewProduct = () => {
