@@ -59,7 +59,7 @@ const Contact = () => {
         <div className="quadloop__contact_content__form_field">
           <input
             type="email"
-            placeholder="Email"
+            placeholder="Your Email"
             name="email"
             className=""
             required
