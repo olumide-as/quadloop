@@ -15,8 +15,11 @@ import './ViewProduct.css'
 const ViewProduct = () => {
 
   useEffect(() => {
+    function getProducts() {
+     
+    }
     getProducts()
-  }, [getProducts])
+  }, [])
   
   const [products, setProducts] = useState([])
 
