@@ -3,7 +3,6 @@ import { EditFilled, DeleteFilled } from '@ant-design/icons'
 import { collection, deleteDoc, doc, onSnapshot, orderBy, query } from 'firebase/firestore'
 import { deleteObject, ref } from 'firebase/storage'
 import Notiflix from 'notiflix'
-import { useCallback } from 'react'
 import {useEffect, useState} from 'react'
 import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
@@ -18,13 +17,13 @@ const ViewProduct = () => {
 
   useEffect(() => {
     getProducts()
-  }, [getProducts])
+  }, [])
   
   const [products, setProducts] = useState([])
 
   const dispatch = useDispatch()
 
-  const getProducts = useCallback(() =>{
+  const getProducts = () =>{
 
     try{
       const productsRef = collection(db, "products");
@@ -50,9 +49,7 @@ const ViewProduct = () => {
     }catch(error){
       toast.error(error.message)
     }
-  })
-
- 
+  }
 
   const confirmDelete = (id, imageURL) => {
     Notiflix.Confirm.show(
