@@ -1,0 +1,27 @@
+.quadloop__features{
+    background-color: var(--color-bg);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    box-shadow: 19px 9px 41px -1px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width:900px) {
+    .quadloop__features{
+        margin:0.5rem;
+    }
+    
+}
+
+.quadloop__features img{
+    height: 135px;
+    width: 135px;
+}
+
+.quadloop__features p{
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--color-3);
+}

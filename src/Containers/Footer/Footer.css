@@ -1,0 +1,121 @@
+.quadloop__footer{
+    display: flex;
+    align-items: flex-end;
+    padding: 2rem  6rem;
+
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__footer{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+}
+
+.quadloop__footer_01{
+    flex-grow: 7;
+}
+
+.quadloop__footer_01 p{
+    text-align: justify;
+    padding: 0.5rem 1rem 0.1rem 0rem;
+    color: var(--color-3);
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__footer_01 p{
+        text-align: center;
+        padding: 0.5rem 0rem;
+    }
+    
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__footer_01 img{
+        align-content: center;
+    }
+    
+}
+
+.quadloop__footer_02{
+    flex-grow: 1;
+}
+
+.quadloop__footer_02 p{
+    text-align: justify;
+    padding: 0.5rem 0rem 1rem 0rem;
+    color: var(--color-3);
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__footer_02 p{
+        text-align: center;
+    }
+    
+}
+
+.quadloop__footer_02 p:hover{
+    scale: 1.03;
+    transition: 0.4s;
+    color: var(--color-2);
+}
+
+.quadloop__footer_03{
+    flex-grow: 1;
+}
+.quadloop__footer_03 p{
+    text-align: justify;
+    padding: 0.5rem 0rem 1rem 0rem;
+    color: var(--color-3);
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__footer_02 {
+        padding-top: 2rem;
+    }
+    
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__footer_03 p{
+        text-align: center;
+    }
+    
+}
+
+.quadloop__footer_03 p:hover{
+    scale: 1.03;
+    transition: 0.4s;
+    color: var(--color-2);
+}
+
+.quadloop__footer_04 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    align-items: flex-end;
+}
+
+.quadloop__footer_04 img{
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__footer_04 {
+        flex-direction: row;  
+        padding: 1rem;  
+    }
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__footer_04 img{
+        padding: 1rem;  
+    }
+}
+
+.quadloop__footer a:hover{
+    scale: 1.03;
+    transition: 0.4s;
+}

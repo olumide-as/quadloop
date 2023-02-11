@@ -1,0 +1,42 @@
+.quadloop__solutions h2{
+    font-family: var(--font-family);
+    color: var(--color-2);
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 4rem;
+   }
+
+@media screen and (min-width:1024px) {
+    .quadloop__solutions h2{
+        padding-top: 6rem;
+       }
+}
+
+.quadloop__solutions_images{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:768px) {
+    .quadloop__solutions_images{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.quadloop__solutions_images img{
+    width: 300px;
+}
+
+@media screen and (max-width:980px) {
+    .quadloop__solutions_images img{
+        width: 250px;
+}
+    
+}
+
+.quadloop__solutions_images a:hover{
+    scale: 1.03;
+    transition: 0.4s;
+    cursor: pointer;
+}

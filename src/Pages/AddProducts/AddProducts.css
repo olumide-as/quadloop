@@ -1,0 +1,55 @@
+.quadloop__addproducts_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quadloop__addproducts_form h2{
+    font-family: var(--font-family);
+    color: var(--color-2);
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 4rem;
+}
+
+.quadloop__addproducts_form_field input{
+    font-family: var(--font-family);
+    font-size: 14px;
+    padding: 0.5rem 2rem;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    background-color: var(--color-6);
+    color: var(--color-3);
+    border: none;
+}
+
+.quadloop__addproducts_form_field textarea{
+    font-family: var(--font-family);
+    font-size: 14px;
+    padding: 0.5rem 2rem;
+    width: 100%;
+    height: 150px;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--color-6);
+    border: none;
+    color: var(--color-3);
+}
+
+.quadloop__addproducts_form_field button{
+    width: 100px;
+    height: 36px;
+    background: var(--color-4);
+    border-radius: 10px;
+    font-family: var(--font-family);
+    color: var(--color-6);
+    font-weight: 400;
+    font-size: 14px;
+    border:none;
+    text-transform: uppercase;
+    float: right;
+}

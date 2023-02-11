@@ -1,0 +1,38 @@
+.quadloop__FeaturesNumber{
+    background-color: var(--color-bg);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    box-shadow: 19px 9px 41px -1px rgba(0, 0, 0, 0.1);
+    width: 160px;
+    height: 180px;
+}
+
+@media screen and (max-width:900px) {
+    .quadloop__FeaturesNumber{
+        margin:0.5rem;
+    }
+    
+}
+
+.quadloop__FeaturesNumber img{
+    height: 60px;
+    width: 60px;
+}
+
+.quadloop__FeaturesNumber h4{
+    font-weight: 800;
+    font-size: 36px;
+    color: var(--color-1);
+    font-family: var(--font-family);
+}
+
+.quadloop__FeaturesNumber p{
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--color-3);
+    padding: 0rem;
+    text-align: center;
+}

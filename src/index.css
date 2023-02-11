@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Neo Sans Std";
+  src: url("Fonts/Neo Sans Std Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Neo Sans Std";
+  src: url("Fonts/Neo Sans Std Light.otf");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Neo Sans Std";
+  src: url("Fonts/Neo Sans Std Regular.otf");
+  font-weight: normal;
+}
+
+:root {
+    --color-bg: #FFFFFF;
+    --color-1: #12A7B5;
+    --color-2: #105D6B;
+    --color-3: #4A4A4A;
+    --color-4: #FAA112;
+    --color-5: #FFFFFF;
+    --color-6: #F0F0F0;
+    --color-grad: linear-gradient(180deg, #105D6B 25.16%, #12A7B5 63.62%);
+    --font-family: 'Neo Sans Std'; 
+}
+

@@ -1,0 +1,49 @@
+.quadloop__adminnavbar{
+    padding: 2rem 4rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-2);
+}
+
+
+
+.quadloop__adminnavbar-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.quadloop__adminnavbar-links a{
+    padding: 0rem 1rem 0rem 1rem;
+    font-family: var(--font-family);
+    color: var(--color-5);
+    padding: 1rem;
+}
+
+.quadloop__adminnavbar-links a:hover{
+    border-bottom: 3px solid;
+    border-color: var(--color-4);
+    transition: 0.1s ease-out;
+    font-weight: 800;
+
+}
+
+.quadloop__adminnavbar-links a.active{
+    border-bottom: 3px solid;
+    border-color: var(--color-4);
+    font-weight: 800;
+    
+}
+
+@media screen and (max-width: 991px){
+    .quadloop__adminnavbar{
+        padding: 1rem;
+        top: 0;
+    }
+
+    
+}
+

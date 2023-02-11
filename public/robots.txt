@@ -1,0 +1,3 @@
+Sitemap: https://www.quadloop.africa/sitemap.xml
+User-agent: *
+Disallow:

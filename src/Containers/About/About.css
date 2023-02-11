@@ -1,0 +1,167 @@
+
+.quadloop__about h2{
+ font-family: var(--font-family);
+ color: var(--color-2);
+ font-size: 36px;
+ font-weight: bold;
+ padding-bottom: 4rem;
+}
+
+.quadloop__about_01{
+    display: flex;
+    padding-bottom: 6rem;
+    align-items: center;
+}
+
+@media screen and (max-width:950px) {
+    .quadloop__about_01{
+        flex-direction: column;
+    }    
+    
+}
+
+.quadloop__about_01__image img{
+    width:300px;
+    height: 350px;
+    border-radius: 40px;
+    object-fit: cover;
+    
+}
+
+
+.quadloop__about_01 p{
+    text-align: justify;
+    padding: 0rem 4rem 2rem 0rem;
+    color: var(--color-3);
+    line-height: 1.6rem;
+}
+
+@media screen and (max-width:1024px) {
+    .quadloop__about_01 p{
+        padding: 0rem 1rem 2rem 0rem;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .quadloop__about_01 p{
+        padding: 0rem 0rem 2rem 0rem;
+    }
+    
+}
+
+.quadloop__about_02__content{
+    display: flex;
+}
+
+@media screen and (max-width:860px) {
+    .quadloop__about_02__content{
+        flex-direction: column;
+    }
+    
+}
+
+.quadloop__about_02 h3{
+    font-family: var(--font-family);
+    color: var(--color-2);
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+   }
+
+
+   .quadloop__about_02__text p{
+    text-align: justify;
+    padding: 1rem 1rem 1rem 0rem;
+    color: var(--color-3);
+    line-height: 1.6rem;
+}
+
+@media screen and (max-width:786px) {
+    .quadloop__about_02 p{
+        padding: 1rem 0rem 1rem 0rem;
+    }
+}
+
+
+.quadloop__about_02__image{
+    display: flex;
+    position: relative;
+}
+
+.quadloop__about_02__image a:hover{
+    scale: 1.03;
+    transition: 0.4s;
+}
+
+.quadloop__about_02__image img{
+    align-self: center;
+    width:250px
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__about_02__image {
+        flex-direction: column;
+        align-items: center;
+
+        
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    .quadloop__about_02__image img{
+        width:200px
+    }
+    
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__about_02__image img{
+        width: 250px;        
+    }
+    
+}
+
+@media screen and (max-width:860px) {
+    .quadloop__about_02__image{
+        justify-content: space-around;
+        padding: 2rem 0rem
+
+    }
+    
+}
+
+
+.image1{
+    margin-right: -20px;
+    z-index: 1;
+}
+
+@media screen and (max-width:426px) {
+    .image1{
+        margin:0px;
+        z-index: 0;
+    }
+}
+
+.image2{
+    margin-top: -50px;
+}
+
+@media screen and (max-width:426px) {
+    .image2{
+        margin-top: 0px;
+    }
+}
+
+.image3{
+    margin-left: -10px;
+}
+
+@media screen and (max-width:426px) {
+    .image3{
+        margin-left: 0px;
+    }
+}
+

@@ -1,0 +1,121 @@
+.quadloop__contact_content{
+    background-color: var(--color-bg);
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 13.2043px 6.25468px 28.4935px -0.694964px rgba(0, 0, 0, 0.1);  
+}
+
+@media screen and (max-width:768px) {
+    .quadloop__contact_content{
+        width: 100%;
+
+    }
+    
+}
+
+@media screen and (max-width:426px) {
+    .quadloop__contact_content{
+        padding: 2rem;
+
+    }
+    
+}
+
+.quadloop__contact_content h2{
+    font-family: var(--font-family);
+    color: var(--color-2);
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 4rem;
+}
+
+.quadloop__contact_02{
+    display: flex;
+}
+
+.form50{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+@media screen and (max-width:1024px) {
+    .form50{
+        flex-direction: column;
+    }  
+}
+
+.quadloop__contact_content__form{
+    width: 50%;
+}
+
+.quadloop__contact_content__form_field input{
+    font-family: var(--font-family);
+    font-size: 14px;
+    padding: 0.5rem 2rem;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    background-color: var(--color-6);
+    color: var(--color-3);
+    border: none;
+}
+
+.quadloop__contact_content__form_field textarea{
+    font-family: var(--font-family);
+    font-size: 14px;
+    padding: 0.5rem 2rem;
+    width: 100%;
+    height: 150px;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--color-6);
+    border: none;
+    color: var(--color-3);
+}
+
+.quadloop__contact_content__form_field button{
+    width: 100px;
+    height: 36px;
+    background: var(--color-4);
+    border-radius: 10px;
+    font-family: var(--font-family);
+    color: var(--color-6);
+    font-weight: 400;
+    font-size: 14px;
+    border:none;
+    text-transform: uppercase;
+    float: right;
+}
+
+
+
+.quadloop__contact_content__details{
+    padding-left: 4rem;
+    width: 50%;
+}
+
+@media screen and (max-width:960px) {
+    .quadloop__contact_02{
+        flex-direction: column;
+    }
+
+    .quadloop__contact_content__details{
+        width:100%;
+        padding: 1rem 0rem 0rem 0rem;
+    }
+
+    .quadloop__contact_content__form{
+        width: 100%;
+    }
+    
+}
+
+
+.quadloop__alert{
+    font-family: var(--font-family);
+}

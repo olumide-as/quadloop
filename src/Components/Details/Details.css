@@ -1,0 +1,15 @@
+.quadloop__details{
+    display: flex;
+}
+
+.quadloop__details p{
+    font-size: 16px;
+    color: var(--color-3);
+    padding: 0.5rem;
+}
+
+.quadloop__details p:hover{
+    scale: 1.03;
+    transition: 0.4s;
+    color: var(--color-2);
+}

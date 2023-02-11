@@ -1,0 +1,32 @@
+.quadloop__viewproducts{
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: var(--font-family);
+}
+
+.quadloop__viewproducts h2{
+    font-family: var(--font-family);
+    color: var(--color-2);
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 4rem;
+}
+
+.quadloop__viewproducts td, .quadloop__viewproducts th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .quadloop__viewproducts tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .quadloop__viewproducts tr:hover {background-color: #ddd;}
+  
+  .quadloop__viewproducts th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--color-4);
+    color: var(--color-3);
+  }

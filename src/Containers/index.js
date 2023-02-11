@@ -1,0 +1,10 @@
+export { default as About } from './About/About';
+export { default as Contact } from './Contact/Contact';
+export { default as Footer } from './Footer/Footer';
+export { default as Home } from './Home/Home';
+export { default as Impact } from './Impact/Impact';
+export { default as Navbar } from './Navbar/Navbar';
+export { default as News } from './News/News';
+export { default as Partners } from './Partners/Partners';
+export { default as Solutions } from './Solutions/Solutions';
+export { default as Challenges } from './Challenges/Challenges';

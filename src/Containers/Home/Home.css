@@ -1,0 +1,162 @@
+.quadloop__home_01{
+    display: flex;
+    padding: 6rem 0rem;
+}
+
+@media screen and (max-width:956px) {
+    .quadloop__home_01{
+        flex-direction: column;
+        padding: 3rem 0rem;
+    }
+}
+
+.quadloop__home_01 img{
+    position: relative;
+    right: 100px;
+    width: 600px;
+}
+
+.quadloop__home_01 button{
+    width: 200px;
+    height: 36px;
+    background: var(--color-4);
+    border-radius: 10px;
+    font-family: var(--font-family);
+    color: var(--color-6);
+    font-weight: 400;
+    font-size: 14px;
+    border:none;
+    text-transform: uppercase;
+    margin: 1rem 0rem;
+}
+
+.quadloop__home_01 button:hover{
+    scale: 1.03;
+    transition: 0.4s;
+}
+
+@media screen and (max-width:1156px) {
+    .quadloop__home_01 img{
+        position: relative;
+        width: 500px;
+        right: 20px;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    .quadloop__home_01 img{
+        position: relative;
+        width: 400px;
+        right: 20px;
+    }
+    
+}
+
+@media screen and (max-width:430px) {
+    .quadloop__home_01 img{
+        position: relative;
+        width: 100%;
+        right: 20px;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    .quadloop__home_01 img{
+        position: relative;
+        width: 280px;
+        right: 20px;
+    }
+    
+}
+
+.quadloop__home_01 h1{
+    font-family: var(--font-family);
+    font-size: 44px;
+    color: var(--color-3);
+    font-weight: 400;
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__home_01 h1{
+
+        font-size: 36px;
+        padding: 2rem 0rem;
+
+    }
+    
+}
+
+.quadloop__home_01 span{
+    color: var(--color-2);
+    font-weight: 800;
+}
+
+.quadloop__home_02{
+    font-family: var(--font-family);
+    font-size: 24px;
+    color: var(--color-5);
+    text-align: center;
+    padding: 4rem 8rem;
+}
+
+@media screen and (max-width:768px) {
+    .quadloop__home_02{
+        padding: 4rem 0rem;
+    }
+    
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__home_02 h3{
+        font-size: 24px;
+
+    }
+    
+}
+
+.quadloop__home_03{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 8rem;
+    
+}
+
+@media screen and (max-width:1024px) {
+    .quadloop__home_03{
+        padding:0rem;
+
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .quadloop__home_03{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    
+}
+
+.quadloop__home_arrow{
+    display: flex;
+    justify-content: center;
+    padding: 8rem;
+}
+
+@media screen and (max-width:768px) {
+    .quadloop__home_arrow{
+        padding: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    .quadloop__home_04{
+        padding: 1rem;
+    }
+    
+}
+

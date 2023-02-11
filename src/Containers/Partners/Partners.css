@@ -1,0 +1,32 @@
+
+
+.quadloop__partners h2{
+    font-family: var(--font-family);
+    color: var(--color-2);
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 4rem;
+   }
+
+.quadloop__partners_images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+@media screen and (max-width:1024px) {
+    .quadloop__partners_images{
+        flex-wrap: wrap;
+    }
+    
+}
+
+.quadloop__partners_images img{
+    width: 150px;
+}
+
+.quadloop__partners_images a:hover{
+    scale: 1.03;
+    transition: 0.4s;
+}

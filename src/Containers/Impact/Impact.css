@@ -1,0 +1,124 @@
+
+
+.quadloop__impact h2{
+    font-family: var(--font-family);
+    color: var(--color-2);
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 12rem;
+    padding-bottom: 4rem;
+   }
+
+.quadloop__impact_content{
+    display: flex;
+}
+
+@media screen and (max-width:860px) {
+    .quadloop__impact_content{
+        flex-direction: column;
+    }
+    
+}
+
+.quadloop__impact_content__text p{
+    text-align: justify;
+    padding: 1rem 8rem 1rem 0rem;
+    color: var(--color-3);
+    line-height: 1.6rem;
+}
+
+@media screen and (max-width:1200px) {
+    .quadloop__impact_content__text p{
+        padding: 1rem 2rem 1rem 0rem;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .quadloop__impact_content__text p{
+        padding: 1rem 0rem 4rem 0rem;
+    }
+    
+}
+
+.quadloop__impact_content__metrics h3{
+    font-family: var(--font-family);
+    color: var(--color-2);
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+   }
+
+.quadloop__impact_content__metrics_images{
+    display: flex;
+    position: relative;
+}
+
+.quadloop__impact_content__metrics_images img{
+
+    width:250px
+}
+
+@media screen and (max-width:860px) {
+    .quadloop__impact_content__metrics_images{
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (max-width:512px) {
+    .quadloop__impact_content__metrics_images{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    .quadloop__impact_content__metrics_images img{
+        width:200px
+    }
+    
+}
+
+@media screen and (max-width:468px) {
+    .quadloop__impact_content__metrics_images img{
+        width:250px;
+    }
+    
+}
+
+.quadloop__impact_content__metrics_images a:hover{
+    scale: 1.03;
+    transition: 0.4s;
+}
+
+.image1{
+    margin-right: 5px;
+    z-index: 1;
+}
+
+.image2{
+    margin-top: -50px;
+}
+
+.image3{
+    margin-left: -10px;
+}
+
+@media screen and (max-width:512px) {
+    .image1{
+        margin:0px;
+        z-index: 0;
+    }
+}
+@media screen and (max-width:512px) {
+    .image2{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:512px) {
+    .image3{
+        margin-left: 0px;
+    }
+}

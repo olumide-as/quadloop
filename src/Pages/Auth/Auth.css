@@ -1,0 +1,90 @@
+.quadloop__auth{
+    background-image: url(../../Assets/solarfarm.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quadloop__auth_form{
+    background-color: var(--color-bg);
+    padding: 2rem;
+    box-shadow: 19px 9px 41px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+
+
+}
+
+.quadloop__auth_form h2{
+    font-family: var(--font-family);
+    color: var(--color-2);
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 4rem;
+}
+
+
+.quadloop__auth_form_field input{
+    font-family: var(--font-family);
+    font-size: 14px;
+    padding: 0.5rem 2rem;
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    background-color: var(--color-6);
+    color: var(--color-3);
+    border: none;
+}
+
+
+.quadloop__auth_form_field button{
+    width: 100%;
+    height: 36px;
+    background: var(--color-4);
+    border-radius: 10px;
+    font-family: var(--font-family);
+    color: var(--color-6);
+    font-weight: 400;
+    font-size: 14px;
+    border:none;
+    text-transform: uppercase;
+    float: right;
+    margin: 1rem 0rem;
+}
+
+.quadloop__auth_form_field button:hover{
+    scale: 1.03;
+    transition: 0.4s;
+}
+
+.quadloop__auth_text{
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: var(--color-3);
+    line-height: 1.5rem;
+}
+
+.quadloop__auth_text a{
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: var(--color-2);
+    line-height: 1.5rem;
+}
+
+.quadloop__auth_text a:hover{
+    scale: 1.03;
+    transition: 0.4s;
+}
+
+.quadloop__auth_text button{
+    color: var(--color-2);
+}
+
+.quadloop__auth_text button:hover{
+    scale: 1.03;
+    transition: 0.4s;
+}
