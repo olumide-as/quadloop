@@ -1,10 +1,10 @@
-import { addDoc, collection,  Timestamp } from "firebase/firestore";
-import { getDownloadURL, ref, uploadBytesResumable,} from "firebase/storage";
+import { addDoc, collection, /*doc, setDoc,*/ Timestamp } from "firebase/firestore";
+import { /*deleteObject*/ getDownloadURL, ref, uploadBytesResumable,} from "firebase/storage";
 import { useState } from "react";
 import { useNavigate, useParams } from "react-router";
 //import { useSelector } from "react-redux";
 //import { useNavigate, useParams } from "react-router-dom";
-import { toast,  } from "react-toastify";
+import { toast, ToastContainer } from "react-toastify";
 import { db, storage } from "../../../Config/Config";
 import './AddProducts.css'
 

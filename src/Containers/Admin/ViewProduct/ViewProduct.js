@@ -14,10 +14,6 @@ import './ViewProduct.css'
 
 
 const ViewProduct = () => {
-
-  useEffect(() => {
-    getProducts()
-  }, [getProducts])
   
   const [products, setProducts] = useState([])
 
@@ -50,6 +46,10 @@ const ViewProduct = () => {
       toast.error(error.message)
     }
   }
+
+  useEffect(() => {
+    getProducts()
+  }, [getProducts])
 
   const confirmDelete = (id, imageURL) => {
     Notiflix.Confirm.show(
