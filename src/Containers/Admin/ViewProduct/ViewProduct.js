@@ -16,7 +16,7 @@ const ViewProduct = () => {
 
   useEffect(() => {
     getProducts()
-  }, [])
+  }, [getProducts])
   
   const [products, setProducts] = useState([])
 
