@@ -12,14 +12,12 @@ import { STORE_PRODUCTS } from '../../../Redux/Slice/ProductSlice'
 import './ViewProduct.css'
 
 
+
 const ViewProduct = () => {
 
   useEffect(() => {
-    function getProducts() {
-     
-    }
     getProducts()
-  }, [])
+  }, [getProducts])
   
   const [products, setProducts] = useState([])
 
