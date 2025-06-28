@@ -1,0 +1,30 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # ✅ Allow static file access for images, fonts, etc.
+  RewriteCond %{REQUEST_URI} ^/(assets|fonts|favicon\.ico) [NC]
+  RewriteRule ^ - [L]
+
+  # 🚫 Block access to sensitive files
+  RewriteRule ^\.env - [F,L]
+</IfModule>
+
+# ✅ Add correct MIME types
+AddType image/svg+xml .svg
+AddType application/font-woff2 .woff2
+AddType application/font-woff .woff
+AddType application/vnd.ms-fontobject .eot
+AddType font/ttf .ttf
+AddType font/otf .otf
+
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/quadloop1/quadloop"
+PassengerBaseURI "/"
+PassengerNodejs "/home/quadloop1/nodevenv/quadloop/18/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END

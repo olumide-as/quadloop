@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://quadloop.africa
+
+# Sitemaps
+Sitemap: https://quadloop.africa/sitemap.xml
